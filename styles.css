@@ -82,6 +82,20 @@ li:hover{
 .selected-works h2 span, h5, h3 span{
     color: #fff;
 }
+.black-button{
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 8px 16px;
+    background-color: #010101;
+    color: #fff;
+
+}
+.unique-button{
+    background: linear-gradient(to right, #BC3CD8, #C54B8C);
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 8px 16px;
+}
 .first{
     width: 594px;
     height: 490px;
@@ -149,5 +163,14 @@ footer span{
 .contact-on{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
+}
+.contact-on img{
+    width: 50px;
+    height: 50px;
+}
+.contact-on img:nth-child(2){
+    width: 30px;
+    height: 30px;
 }
